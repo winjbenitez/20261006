@@ -1,5 +1,6 @@
 # Usar una imagen base
-FROM python:3.14-bookworm
+#FROM python:3.14-bookworm
+FROM python:3.13-slim
 # Creando la carpeta de trabajo
 WORKDIR /app
 # Copiadno archivos del proyecto al contenedor
